@@ -1,0 +1,11 @@
+[
+	{
+		"name" : "pipliz.bananafarmer.banana",
+		"requires" : [
+			
+		],
+		"results" : [
+			{"amount":10,"type":"banana"}
+		]
+	}
+]

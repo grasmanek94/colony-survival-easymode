@@ -1,0 +1,11 @@
+[
+	{
+		"name" : "pipliz.vanillafarmer.vanilla",
+		"requires" : [
+			
+		],
+		"results" : [
+			{"amount":10,"type":"vanilla"}
+		]
+	}
+]

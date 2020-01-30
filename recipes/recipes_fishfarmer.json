@@ -1,0 +1,11 @@
+[
+	{
+		"name" : "pipliz.fishfarmer.rawfish",
+		"requires" : [
+			
+		],
+		"results" : [
+			{"amount":10,"type":"rawfish"}
+		]
+	}
+]

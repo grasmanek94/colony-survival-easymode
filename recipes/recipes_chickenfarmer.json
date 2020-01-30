@@ -1,0 +1,23 @@
+[
+	{
+		"defaultLimit" : 35,
+		"name" : "chickenfarmer.egg",
+		"requires" : [
+			{"amount":3,"type":"barley"}
+		],
+		"results" : [
+			{"amount":30,"type":"egg"}
+		]
+	},
+	{
+		"defaultLimit" : 35,
+		"name" : "chickenfarmer.chickenmeat",
+		"requires" : [
+			{"amount":15,"type":"barley"}
+		],
+		"results" : [
+			{"amount":20,"type":"chickenmeat"},
+			{"amount":250,"type":"feather"}
+		]
+	}
+]

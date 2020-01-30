@@ -1,0 +1,47 @@
+[
+	{
+		"defaultLimit" : 5,
+		"name" : "pipliz.kiln.charcoal",
+		"requires" : [
+			{"amount":6,"type":"firewood"}
+		],
+		"results" : [
+			{"amount":20,"type":"charcoal"}
+		]
+	},
+	{
+		"defaultLimit" : 5,
+		"name" : "pipliz.kiln.cokes",
+		"requires" : [
+			{"type":"coalore"},
+			{"amount":6,"type":"firewood"}
+		],
+		"results" : [
+			{"amount":20,"type":"cokes"}
+		]
+	},
+	{
+		"defaultLimit" : 10,
+		"name" : "pipliz.kiln.porcelainbiscuit",
+		"requires" : [
+			{"type":"porcelainraw"},
+			{"amount":3,"type":"charcoal"}
+		],
+		"results" : [
+			{"amount":10,"type":"porcelainbiscuit"}
+		]
+	},
+	{
+		"defaultLimit" : 10,
+		"name" : "pipliz.kiln.porcelainglazed",
+		"requires" : [
+			{"amount":2,"type":"porcelainbiscuit"},
+			{"amount":2,"type":"charcoal"},
+			{"amount":3,"type":"tin"},
+			{"amount":2,"type":"lead"}
+		],
+		"results" : [
+			{"amount":10,"type":"porcelainglazed"}
+		]
+	}
+]

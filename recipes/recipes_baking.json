@@ -1,0 +1,25 @@
+[
+	{
+		"name" : "pipliz.baker.bread",
+		"requires" : [
+			{"amount":5,"type":"flour"},
+			{"type":"bucketwater"},
+			{"type":"firewood"}
+		],
+		"results" : [
+			{"amount":20,"type":"bread"},
+			{"isOptional":true,"type":"bucketempty"}
+		]
+	},
+	{
+		"defaultLimit" : 15,
+		"name" : "pipliz.baker.beeswax",
+		"requires" : [
+			{"amount":4,"type":"rawbeeswax"},
+			{"type":"firewood"}
+		],
+		"results" : [
+			{"amount":20,"type":"beeswax"}
+		]
+	}
+]

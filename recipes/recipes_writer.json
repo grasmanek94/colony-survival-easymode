@@ -1,0 +1,34 @@
+[
+	{
+		"defaultLimit" : 10,
+		"name" : "writer.paperempty",
+		"requires" : [
+			{"type":"papyrus"}
+		],
+		"results" : [
+			{"type":"paperempty"}
+		]
+	},
+	{
+		"defaultLimit" : 30,
+		"name" : "writer.papertext",
+		"requires" : [
+			{"type":"paperempty"},
+			{"type":"ink"}
+		],
+		"results" : [
+			{"type":"papertext"}
+		]
+	},
+	{
+		"defaultLimit" : 25,
+		"name" : "writer.book",
+		"requires" : [
+			{"amount":20,"type":"papertext"},
+			{"amount":4,"type":"papyrus"}
+		],
+		"results" : [
+			{"amount":10,"type":"book"}
+		]
+	}
+]

@@ -1,0 +1,11 @@
+[
+	{
+		"name" : "pipliz.cacaofarmer.cacao",
+		"requires" : [
+			
+		],
+		"results" : [
+			{"amount":10,"type":"cacao"}
+		]
+	}
+]

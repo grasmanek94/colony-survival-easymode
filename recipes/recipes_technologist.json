@@ -1,0 +1,66 @@
+[
+	{
+		"defaultLimit" : 5,
+		"name" : "pipliz.technologist.sciencebagbasic",
+		"requires" : [
+			{"type":"coppertools"},
+			{"type":"bronzeplate"},
+			{"amount":3,"type":"bricks"},
+			{"type":"linenbag"}
+		],
+		"results" : [
+			{"amount":10,"type":"sciencebagbasic"}
+		]
+	},
+	{
+		"defaultLimit" : 5,
+		"name" : "pipliz.technologist.sciencebagmilitary",
+		"requires" : [
+			{"type":"ironsword"},
+			{"amount":3,"type":"bronzearrow"},
+			{"type":"bow"},
+			{"type":"linenbag"}
+		],
+		"results" : [
+			{"amount":10,"type":"sciencebagmilitary"}
+		]
+	},
+	{
+		"defaultLimit" : 5,
+		"name" : "pipliz.technologist.sciencebaglife",
+		"requires" : [
+			{"type":"cake"},
+			{"type":"undershirt"},
+			{"type":"waxtablet"}
+		],
+		"results" : [
+			{"amount":10,"type":"sciencebaglife"}
+		]
+	},
+	{
+		"defaultLimit" : 5,
+		"name" : "pipliz.technologist.sciencebagadvanced",
+		"requires" : [
+			{"type":"steelparts"},
+			{"type":"gunpowderpouch"},
+			{"type":"silveringot"},
+			{"type":"linenbag"}
+		],
+		"results" : [
+			{"amount":10,"type":"sciencebagadvanced"}
+		]
+	},
+	{
+		"defaultLimit" : 5,
+		"name" : "pipliz.technologist.sciencebagcolony",
+		"requires" : [
+			{"type":"bronzeanvil"},
+			{"type":"fineryforge"},
+			{"type":"matchlockgun"},
+			{"type":"linenbag"}
+		],
+		"results" : [
+			{"amount":10,"type":"sciencebagcolony"}
+		]
+	}
+]

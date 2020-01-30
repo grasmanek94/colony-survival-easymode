@@ -1,0 +1,52 @@
+[
+	{
+		"defaultLimit" : 15,
+		"name" : "pipliz.woodcutter.plankstemperate",
+		"requires" : [
+			{"type":"logtemperate"}
+		],
+		"results" : [
+			{"amount":40,"type":"planks"}
+		]
+	},
+	{
+		"defaultLimit" : 15,
+		"name" : "pipliz.woodcutter.plankstaiga",
+		"requires" : [
+			{"type":"logtaiga"}
+		],
+		"results" : [
+			{"amount":40,"type":"planks"}
+		]
+	},
+	{
+		"defaultLimit" : 20,
+		"name" : "pipliz.woodcutter.firewood",
+		"requires" : [
+			{"type":"planks"}
+		],
+		"results" : [
+			{"amount":60,"type":"firewood"}
+		]
+	},
+	{
+		"defaultLimit" : 3,
+		"name" : "pipliz.woodcutter.quarterblockbrowndark",
+		"requires" : [
+			{"amount":1,"type":"planks"}
+		],
+		"results" : [
+			{"amount":4,"type":"quarterblockbrowndark"}
+		]
+	},
+	{
+		"defaultLimit" : 3,
+		"name" : "pipliz.woodcutter.quarterblockbrownlight",
+		"requires" : [
+			{"amount":1,"type":"planks"}
+		],
+		"results" : [
+			{"amount":4,"type":"quarterblockbrownlight"}
+		]
+	}
+]

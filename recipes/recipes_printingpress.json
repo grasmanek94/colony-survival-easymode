@@ -1,0 +1,13 @@
+[
+	{
+		"defaultLimit" : 100,
+		"name" : "printingpress.papertext",
+		"requires" : [
+			{"amount":3,"type":"paperempty"},
+			{"amount":3,"type":"ink"}
+		],
+		"results" : [
+			{"amount":30,"type":"papertext"}
+		]
+	}
+]

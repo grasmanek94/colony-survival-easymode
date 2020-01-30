@@ -1,0 +1,368 @@
+[
+	{
+		"name" : "pipliz.player.npcshop",
+		"requires" : [
+			{"type":"planks"}
+		],
+		"results" : [
+			{"type":"npcshop"}
+		]
+	},
+	{
+		"name" : "pipliz.player.slingtemperate",
+		"requires" : [
+			{"type":"leavestemperate"}
+		],
+		"results" : [
+			{"type":"sling"}
+		]
+	},
+	{
+		"name" : "pipliz.player.slingtaiga",
+		"requires" : [
+			{"type":"leavestaiga"}
+		],
+		"results" : [
+			{"type":"sling"}
+		]
+	},
+	{
+		"name" : "pipliz.player.slingbullet",
+		"requires" : [
+			{"type":"stonebricks"}
+		],
+		"results" : [
+			{"amount":100,"type":"slingbullet"}
+		]
+	},
+	{
+		"name" : "pipliz.player.coppernails",
+		"requires" : [
+			{"type":"copper"}
+		],
+		"results" : [
+			{"amount":50,"type":"coppernails"}
+		]
+	},
+	{
+		"name" : "pipliz.player.copperparts",
+		"requires" : [
+			{"type":"copper"}
+		],
+		"results" : [
+			{"amount":20,"type":"copperparts"}
+		]
+	},
+	{
+		"name" : "pipliz.player.coppertools",
+		"requires" : [
+			{"type":"copper"}
+		],
+		"results" : [
+			{"amount":10,"type":"coppertools"}
+		]
+	},
+	{
+		"name" : "pipliz.player.bed",
+		"requires" : [
+			{"amount":3,"type":"planks"},
+			{"amount":3,"type":"straw"},
+			{"amount":8,"type":"coppernails"}
+		],
+		"results" : [
+			{"type":"bed"}
+		]
+	},
+	{
+		"name" : "pipliz.player.crate",
+		"requires" : [
+			{"type":"planks"},
+			{"amount":4,"type":"coppernails"}
+		],
+		"results" : [
+			{"type":"crate"}
+		]
+	},
+	{
+		"name" : "pipliz.player.furnace",
+		"requires" : [
+			{"type":"stonebricks"},
+			{"amount":4,"type":"copperparts"},
+			{"amount":4,"type":"coppernails"},
+			{"amount":2,"type":"tin"}
+		],
+		"results" : [
+			{"type":"furnace"}
+		]
+	},
+	{
+		"name" : "pipliz.player.plankstemperate",
+		"requires" : [
+			{"type":"logtemperate"}
+		],
+		"results" : [
+			{"amount":40,"type":"planks"}
+		]
+	},
+	{
+		"name" : "pipliz.player.plankstaiga",
+		"requires" : [
+			{"type":"logtaiga"}
+		],
+		"results" : [
+			{"amount":40,"type":"planks"}
+		]
+	},
+	{
+		"name" : "pipliz.player.torch",
+		"requires" : [
+			{"type":"planks"},
+			{"amount":3,"type":"firewood"},
+			{"type":"copperparts"},
+			{"amount":2,"type":"coppernails"}
+		],
+		"results" : [
+			{"amount":3,"type":"torch"}
+		]
+	},
+	{
+		"name" : "pipliz.player.workbench",
+		"requires" : [
+			{"type":"planks"},
+			{"amount":2,"type":"coppernails"},
+			{"type":"copperparts"},
+			{"type":"coppertools"}
+		],
+		"results" : [
+			{"type":"workbench"}
+		]
+	},
+	{
+		"name" : "pipliz.player.sciencelab",
+		"requires" : [
+			{"type":"planks"},
+			{"amount":5,"type":"copperparts"},
+			{"type":"coppertools"}
+		],
+		"results" : [
+			{"type":"sciencelab"}
+		]
+	},
+	{
+		"name" : "pipliz.player.trader",
+		"requires" : [
+			{"type":"coatedplanks"},
+			{"amount":5,"type":"crate"}
+		],
+		"results" : [
+			{"type":"trader"}
+		]
+	},
+	{
+		"name" : "pipliz.player.shop",
+		"requires" : [
+			{"type":"planks"},
+			{"amount":4,"type":"linen"},
+			{"amount":5,"type":"bronzecoin"}
+		],
+		"results" : [
+			{"type":"shop"}
+		]
+	},
+	{
+		"name" : "pipliz.player.bronzepickaxe",
+		"requires" : [
+			{"type":"bronzeingot"},
+			{"type":"planks"}
+		],
+		"results" : [
+			{"type":"bronzepickaxe"}
+		]
+	},
+	{
+		"name" : "pipliz.player.bronzeaxe",
+		"requires" : [
+			{"type":"bronzeingot"},
+			{"type":"planks"}
+		],
+		"results" : [
+			{"type":"bronzeaxe"}
+		]
+	},
+	{
+		"name" : "pipliz.player.quarterblockgrey",
+		"requires" : [
+			{"type":"stonebricks"}
+		],
+		"results" : [
+			{"amount":4,"type":"quarterblockgrey"}
+		]
+	},
+	{
+		"name" : "pipliz.player.oven",
+		"requires" : [
+			{"type":"stonebricks"},
+			{"amount":4,"type":"copperparts"}
+		],
+		"results" : [
+			{"type":"oven"}
+		]
+	},
+	{
+		"name" : "pipliz.player.grindstone",
+		"requires" : [
+			{"type":"planks"},
+			{"type":"stonebricks"}
+		],
+		"results" : [
+			{"type":"grindstone"}
+		]
+	},
+	{
+		"name" : "pipliz.player.bronzeanvil",
+		"requires" : [
+			{"amount":5,"type":"bronzeingot"},
+			{"amount":8,"type":"coppernails"},
+			{"type":"coppertools"}
+		],
+		"results" : [
+			{"type":"bronzeanvil"}
+		]
+	},
+	{
+		"name" : "pipliz.player.kiln",
+		"requires" : [
+			{"type":"dirt"},
+			{"amount":4,"type":"bronzeplate"},
+			{"amount":2,"type":"copperparts"}
+		],
+		"results" : [
+			{"type":"kiln"}
+		]
+	},
+	{
+		"name" : "pipliz.player.splittingstumptaiga",
+		"requires" : [
+			{"type":"logtaiga"},
+			{"type":"bronzeaxe"}
+		],
+		"results" : [
+			{"type":"splittingstump"}
+		]
+	},
+	{
+		"name" : "pipliz.player.splittingstumptemperate",
+		"requires" : [
+			{"type":"logtemperate"},
+			{"type":"bronzeaxe"}
+		],
+		"results" : [
+			{"type":"splittingstump"}
+		]
+	},
+	{
+		"name" : "pipliz.player.tailorshop",
+		"requires" : [
+			{"type":"planks"},
+			{"type":"flax"},
+			{"type":"coppertools"}
+		],
+		"results" : [
+			{"type":"tailorshop"}
+		]
+	},
+	{
+		"name" : "pipliz.player.technologisttable",
+		"requires" : [
+			{"type":"coatedplanks"},
+			{"amount":2,"type":"bronzeplate"},
+			{"type":"coppernails"}
+		],
+		"results" : [
+			{"type":"technologisttable"}
+		]
+	},
+	{
+		"name" : "pipliz.player.stonemasonworkbench",
+		"requires" : [
+			{"type":"stonebricks"},
+			{"type":"coppertools"}
+		],
+		"results" : [
+			{"type":"stonemasonworkbench"}
+		]
+	},
+	{
+		"name" : "pipliz.player.dyertable",
+		"requires" : [
+			{"type":"coatedplanks"}
+		],
+		"results" : [
+			{"type":"dyertable"}
+		]
+	},
+	{
+		"name" : "pipliz.player.bloomery",
+		"requires" : [
+			{"type":"bricks"},
+			{"amount":4,"type":"bronzeplate"},
+			{"amount":2,"type":"copperparts"}
+		],
+		"results" : [
+			{"type":"bloomery"}
+		]
+	},
+	{
+		"name" : "pipliz.player.gunsmithshop",
+		"requires" : [
+			{"type":"coatedplanks"},
+			{"type":"bronzeplate"},
+			{"type":"steelparts"}
+		],
+		"results" : [
+			{"type":"gunsmithshop"}
+		]
+	},
+	{
+		"name" : "pipliz.player.mint",
+		"requires" : [
+			{"type":"planks"},
+			{"amount":3,"type":"bronzeplate"},
+			{"amount":3,"type":"coppertools"}
+		],
+		"results" : [
+			{"type":"mint"}
+		]
+	},
+	{
+		"name" : "pipliz.player.glider",
+		"requires" : [
+			{"amount":100,"type":"linen"},
+			{"amount":50,"type":"ironrivet"},
+			{"amount":10,"type":"coatedplanks"},
+			{"amount":25,"type":"steelparts"}
+		],
+		"results" : [
+			{"type":"glider"}
+		]
+	},
+	{
+		"name" : "pipliz.player.cratebread",
+		"requires" : [
+			{"type":"crate"},
+			{"amount":50,"type":"bread"}
+		],
+		"results" : [
+			{"type":"cratebread"}
+		]
+	},
+	{
+		"name" : "pipliz.player.breadfromcrate",
+		"requires" : [
+			{"type":"cratebread"}
+		],
+		"results" : [
+			{"amount":50,"type":"bread"}
+		]
+	}
+]

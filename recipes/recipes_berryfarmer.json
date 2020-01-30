@@ -1,0 +1,12 @@
+[
+	{
+		"name" : "pipliz.berry.gather",
+		"requires" : [
+			
+		],
+		"results" : [
+			{"amount":10,"type":"berry"},
+			{"chance":0.1,"amount":10,"type":"berrybush"}
+		]
+	}
+]

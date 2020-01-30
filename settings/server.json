@@ -1,0 +1,223 @@
+{
+	"Banner" : {
+		"LoadedChunksRadius" : 500,
+		"MaximumZombieSpawnRadius" : 200,
+		"SafeRadiusMaximum" : 1000,
+		"SafeRadiusMinimum" : 30
+	},
+	"BiomePrinting" : {
+		"BiomeColors" : [
+			{
+				"color" : "#888888ff",
+				"type" : "stoneblock"
+			},
+			{
+				"color" : "#c2b280ff",
+				"type" : "sand"
+			},
+			{
+				"color" : "#256d7bff",
+				"type" : "water"
+			},
+			{
+				"color" : "#ebe9f4ff",
+				"type" : "snow"
+			},
+			{
+				"color" : "#e5953fff",
+				"type" : "grasstundradry"
+			},
+			{
+				"color" : "#9f1a26ff",
+				"type" : "grasstundrawet"
+			},
+			{
+				"color" : "#8ea63cff",
+				"type" : "grasstaigawet"
+			},
+			{
+				"color" : "#b6d65fff",
+				"type" : "grasscolddry"
+			},
+			{
+				"color" : "#7dbe3dff",
+				"type" : "grasscoldmid"
+			},
+			{
+				"color" : "#5b9f23ff",
+				"type" : "grasscoldwet"
+			},
+			{
+				"color" : "#d1cd5eff",
+				"type" : "grasshotdriest"
+			},
+			{
+				"color" : "#78b034ff",
+				"type" : "grasshotdry"
+			},
+			{
+				"color" : "#4c9a1dff",
+				"type" : "grasshotmid"
+			},
+			{
+				"color" : "#307f0eff",
+				"type" : "grasshotwet"
+			},
+			{
+				"color" : "#d6ce5dff",
+				"type" : "grasstaigadry"
+			},
+			{
+				"color" : "#f9bf5cff",
+				"type" : "grasstropicdriest"
+			},
+			{
+				"color" : "#bfb64eff",
+				"type" : "grasstropicdry"
+			},
+			{
+				"color" : "#82a135ff",
+				"type" : "grasstropicmid"
+			},
+			{
+				"color" : "#335f0fff",
+				"type" : "grasstropicwet"
+			}
+		],
+		"OffsetX" : -6000,
+		"OffsetZ" : -6000,
+		"Path" : "./",
+		"PixelsSize" : 1500,
+		"VoxelsPerPixelX" : 8,
+		"VoxelsPerPixelZ" : 8
+	},
+	"ChunkQueue" : {
+		"MaxQueueSize" : 5000,
+		"RecalculatePriorityCooldownMS" : 750,
+		"TimeoutSeconds" : 1
+	},
+	"Colony" : {
+		"BaseHappiness" : 1000,
+		"ExclusiveRadius" : 500,
+		"TradingBaseStacksPerSecond" : 0.02,
+		"TradingCooldownMS" : 4000,
+		"TradingNPCCooldown" : 3.5,
+		"TradingNPCStacksPerSecond" : 0.05
+	},
+	"Leaves" : {
+		"MaxDistanceToLog" : 4,
+		"MaxDistanceToLogCheck" : 9
+	},
+	"NPCs" : {
+		"BuilderCooldownMultiplierSeconds" : 0.05,
+		"DiggerCooldownMultiplierSeconds" : 0.05,
+		"InitialFoodCarriedHours" : 24,
+		"MaxFoodCarriedHours" : 48,
+		"ReconsiderDecisionTimeMaximum" : 6000,
+		"ReconsiderDecisionTimeMinimum" : 3500,
+		"RecruitmentCost" : 8
+	},
+	"Player" : {
+		"HealthAudioThreshold" : 10,
+		"HealthRegenerateMax" : 30,
+		"HealthRegenerationSpeed" : 1,
+		"HealthUpdateTimerMS" : 2000,
+		"StartingHealth" : 100
+	},
+	"PriorityBlockIndices" : [
+		"alkanetstage1",
+		"alkanetstage2",
+		"bedendx+",
+		"bedendx-",
+		"bedendz+",
+		"bedendz-",
+		"bedx+",
+		"bedx-",
+		"bedz+",
+		"bedz-",
+		"berrybush",
+		"cherryblossom",
+		"crate",
+		"darkstone",
+		"dirt",
+		"flaxstage1",
+		"flaxstage2",
+		"grasscolddry",
+		"grasscoldmid",
+		"grasscoldwet",
+		"grasshotdriest",
+		"grasshotdry",
+		"grasshotmid",
+		"grasshotwet",
+		"grasstaigadry",
+		"grasstaigawet",
+		"grasstropicdriest",
+		"grasstropicdry",
+		"grasstropicmid",
+		"grasstropicwet",
+		"grasstundradry",
+		"grasstundrawet",
+		"infiniteclay",
+		"infinitecoal",
+		"infinitecopper",
+		"infinitegalena",
+		"infinitegold",
+		"infinitegypsum",
+		"infiniteiron",
+		"infinitesalpeter",
+		"infinitestone",
+		"infinitetin",
+		"leavesfallorange",
+		"leavesfallred",
+		"leavesfallyellow",
+		"leavesgreendark",
+		"leavesgreenlight",
+		"leavestaiga",
+		"leavestemperate",
+		"logtaiga",
+		"logtemperate",
+		"planks",
+		"sand",
+		"stoneblock",
+		"water",
+		"wheatstage1",
+		"wheatstage2",
+		"wheatstage3",
+		"wolfsbanestage1",
+		"wolfsbanestage2"
+	],
+	"Saving" : {
+		"FreeChunksBatchMaxDelayMilliseconds" : 31000,
+		"FreeChunksBatchSizeMax" : 250,
+		"MillisecondsBeforeAutosaveChunk" : 30000,
+		"MillisecondsBeforeAutosaveChunkMax" : 300000,
+		"MillisecondsBetweenDirtyChunkChecks" : 8000,
+		"SecondsBetweenManualSaves" : 30,
+		"SecondsBetweenMiscAutoSaving" : 300
+	},
+	"Time": {
+		"DayTimeEnd": 23.99,
+		"DayTimeStart": 0.03,
+		"GameTimeScale": 120,
+		"GuardShiftDayEnd": 18.5,
+		"GuardShiftDayNPCShopTime": 10,
+		"GuardShiftDayStart": 5.5,
+		"GuardShiftNightEnd": 6.5,
+		"GuardShiftNightStart": 17.5,
+		"SleepTimeEnd": 0.07,
+		"SleepTimeStart": 23.95,
+		"StartTicks": 288000000000
+	},
+	"UseNativeLib" : true,
+	"Water" : {
+		"MaxUpdatesPerTick" : 1000,
+		"TickTimeMilliSeconds" : 1000
+	},
+	"Zombies" : {
+		"PunchForce" : 6,
+		"PunchHeight" : 0.25,
+		"ReconsiderDecisionTimeMaximum" : 6500,
+		"ReconsiderDecisionTimeMinimum" : 4500,
+		"SiegeModeThreshold" : 50
+	}
+}
