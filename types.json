@@ -147,6 +147,138 @@
 		"onRemoveAudio" : "stoneDelete",
 		"sideall" : "SELF"
 	},
+	"leavesfallorange" : {
+		"categories" : [
+			"decorative",
+			"leaves"
+		],
+		"color" : "#ba762c",
+		"customData" : {
+			"attachBehaviour" : [{"id":"leaves"}]
+		},
+		"icon" : "./textures/icons/leavesfallorange.png",
+		"onRemove" : [
+			{"amount":10,"chance":0.6,"type":"leavesfallorange"},
+			{"amount":1,"chance":0.05,"type":"sappling"},
+			{"amount":1,"chance":0.05,"type":"saplingfallorange"}
+		],
+		"parentType" : "leaves"
+	},
+	"leavesfallred" : {
+		"categories" : [
+			"decorative",
+			"leaves"
+		],
+		"color" : "#601728",
+		"customData" : {
+			"attachBehaviour" : [{"id":"leaves"}]
+		},
+		"icon" : "./textures/icons/leavesfallred.png",
+		"onRemove" : [
+			{"amount":10,"chance":0.6,"type":"leavesfallred"},
+			{"amount":1,"chance":0.05,"type":"sappling"},
+			{"amount":1,"chance":0.05,"type":"saplingfallorange"}
+		],
+		"parentType" : "leaves"
+	},
+	"leavesfallyellow" : {
+		"categories" : [
+			"decorative",
+			"leaves"
+		],
+		"color" : "#cbd441",
+		"customData" : {
+			"attachBehaviour" : [{"id":"leaves"}]
+		},
+		"icon" : "./textures/icons/leavesfallyellow.png",
+		"onRemove" : [
+			{"amount":10,"chance":0.6,"type":"leavesfallyellow"},
+			{"amount":1,"chance":0.05,"type":"sappling"},
+			{"amount":1,"chance":0.05,"type":"saplingfallorange"}
+		],
+		"parentType" : "leaves"
+	},
+	"leavesgreendark" : {
+		"categories" : [
+			"decorative",
+			"leaves"
+		],
+		"color" : "#4b771c",
+		"customData" : {
+			"attachBehaviour" : [{"id":"leaves"}]
+		},
+		"icon" : "./textures/icons/leavesgreendark.png",
+		"onRemove" : [
+			{"amount":10,"chance":0.6,"type":"leavesgreendark"},
+			{"amount":1,"chance":0.1,"type":"sappling"}
+		],
+		"parentType" : "leaves"
+	},
+	"leavesgreenlight" : {
+		"categories" : [
+			"decorative",
+			"leaves"
+		],
+		"color" : "#9bd34b",
+		"customData" : {
+			"attachBehaviour" : [{"id":"leaves"}]
+		},
+		"icon" : "./textures/icons/leavesgreenlight.png",
+		"onRemove" : [
+			{"amount":10,"chance":0.6,"type":"leavesgreenlight"},
+			{"amount":1,"chance":0.1,"type":"sappling"}
+		],
+		"parentType" : "leaves"
+	},
+	"leavestaiga" : {
+		"categories" : [
+			"decorative",
+			"leaves"
+		],
+		"customData" : {
+			"attachBehaviour" : [{"id":"leaves"}]
+		},
+		"icon" : "./textures/icons/leavestaiga.png",
+		"onRemove" : [
+			{"amount":10,"chance":0.6,"type":"leavestaiga"},
+			{"amount":1,"chance":0.1,"type":"saplingtaiga"}
+		],
+		"parentType" : "leaves",
+		"sideall" : "SELF"
+	},
+	"leavestemperate" : {
+		"categories" : [
+			"decorative",
+			"leaves"
+		],
+		"customData" : {
+			"attachBehaviour" : [{"id":"leaves"}]
+		},
+		"icon" : "./textures/icons/leavestemperate.png",
+		"onRemove" : [
+			{"amount":10,"chance":0.6,"type":"leavestemperate"},
+			{"amount":1,"chance":0.1,"type":"sappling"}
+		],
+		"parentType" : "leaves",
+		"sideall" : "SELF"
+	},
+	"oliveleaves" : {
+		"categories" : [
+			"decorative"
+		],
+		"customData" : {
+			"attachBehaviour" : [{"id":"leaves"}]
+		},
+		"destructionTime" : 200,
+		"icon" : "./textures/icons/oliveleaves.png",
+		"onPlaceAudio" : "dirtPlace",
+		"onRemove" : [
+			{"amount":10,"chance":0.6,"type":"oliveleaves"},
+			{"amount":1,"chance":0.1,"type":"olivesapling"}
+		],
+		"onRemoveAudio" : "grassDelete",
+		"sideall" : "SELF"
+	},
 	"papyrusstage2" : {
 		"colliders" : {
 			"boxes" : [{"max":[0.5,0.1,0.5],"min":[-0.5,-0.5,-0.5]}],
